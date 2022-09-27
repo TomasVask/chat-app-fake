@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | [Chat App CSS Illustration]</title>
+
+</head>
+
+<body>
+  <div class="purple-box"></div>
+  <div class="cream-box"></div>
+  <main>
+    <section class="app-container">
+      <div class="background">
+        <div class="app-header">
+          <div class="white-box"></div>
+          <div class="user-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+              class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z" />
+            </svg>
+            <img class="avatar" src="./images/avatar.jpg" alt="user picture">
+            <div class="name">Samuel Green</div>
+            <div class="status">Available to Walk</div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+              class="bi bi-three-dots-vertical" viewBox="0 0 20 20">
+              <path
+                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+            </svg>
+          </div>
+        </div>
+        <div class="message-body">
+          <div class="text-received-1">That sounds great. I'd be happy with that.</div>
+          <div class="text-received-2">Could you send over some pictures of your dog, please?</div>
+          <div class="outbound">
+            <img class="dog dog-1" src="./images/dog-image-1.jpg" alt="happy dog">
+            <img class="dog dog-2" src="./images/dog-image-2.jpg" alt="smiling dog">
+            <img class="dog dog-3" src="./images/dog-image-3.jpg" alt="dog in action">
+            <div class="text-sent-1">Here are a few pictures. She's a happy girl!</div>
+            <div class="text-sent-2">Can you make it?</div>
+          </div>
+          <div class="text-received-3">She looks so happy! The time we discussed works. How long shall I take her out
+            for?
+          </div>
+          <div class="option-30-min">
+            <input type="radio" id="30-min" name="option" value="30-minutes">
+            <label for="30-min" class="option-lenght">30 minute walk</label>
+            <div class="option-price">$29</div>
+          </div>
+          <div class="option-60-min">
+            <input type="radio" id="60-min" name="option" value="60-minutes">
+            <label for="60-min" class="option-lenght">1 hour walk</label>
+            <div class="option-price">$49</div>
+          </div>
+          <div class="text-field">
+            <form action="">
+              <input class="text-input" type="text" placeholder="Type a message...">
+            </form>
+            <button class="oval"><img class="path" src="./images/Path.svg" alt=""></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero">
+      <h1>Simple booking</h1>
+      <p>
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to
+        discuss arrangements and make bookings. Once the walk has been completed you can rate
+        your walker and book again all through the chat.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">TomasVask</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
